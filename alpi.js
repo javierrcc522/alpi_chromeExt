@@ -1,12 +1,3 @@
-this one actually works
-$.ajax({
-        url: 'https://www2.meethue.com/en-us',
-        beforeSend: function() {
-        }, success: function(data){
-          let scriptArray = Array.prototype.slice.call(data);
-          console.log(scriptArray.join(''));
-            //process the JSON data etc
-        }
-})
+javascript:void(s=window.philips.context["url"].repositoryPath); void(window.open("https://www.author.signify.com/siteadmin#"+s ))
 
-// let scriptArray = Array.toString().split("[\\s@&.?$+-]");
+//it opens content path for AEM page.
